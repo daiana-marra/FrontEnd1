@@ -1,0 +1,53 @@
+@import url ('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+/* barra superior */
+.barraSup {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+    background-color: black;
+}
+
+.menuRegional li{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barraMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    top: 20px;
+    background: #F0A83E;
+}
+
+.MenuPrincipal{
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.patita1 {
+    width: 15px;
+    height: 14px;
+}
+
+/* Fin barra superior */
+/*Barra Menú Principal*/
+
+.banner {
+    height: 409px;
+    top: 81px;
+    background: url('../images/1bowl.png');
+    background-size: cover;
+}
+
