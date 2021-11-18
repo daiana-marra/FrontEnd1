@@ -10,16 +10,17 @@
 <body>
     <header>
         <div class="barraSup">
-            <span>Grandes ofertas en comederos</span>
-            <nav class="menuRegional">
-                <ul>
+            <p class="ofertas">Grandes ofertas en comederos</p>
+            <nav>
+                <ul class="menuRegional">
                     <li>Español</li>
                     <li>ARG$</li>
                 </ul>
             </nav>
         </div>
-        <div class="barraMenuPrincipal">
-            <img src="./images/Logo.png" alt="Logo">
+    </section>
+    <div class="barraMenuPrincipal">
+            <img src="./images/Logo.png" alt="Logo" class="logo">
             <nav class="menuPrincipal">
                 <ul>
                     <li><img src="./images/pawprint 1.png" alt="foot" class="patita1">Categorías</li>
@@ -32,9 +33,9 @@
     </header>
     <main>
         <section class="banner">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+            <p class="placer">¡Es un placer tenerte aquí!</p>
+            <p class="comendesc">¡Comederos en descuento!</p>
+            <button class="comederos">COMEDEROS</button>
         </section>
         <section class="productos">
             <h2>Productos Destacados</h2>
@@ -61,14 +62,20 @@
         </section>
         <section class="formulario">
             <h3>Contáctanos</h3>
-            <form></form>
-            <button></button>
-            <button></button>
+            <form>
+                <input type="name" value="Nombre y Apellido" required>
+                <input type="email" value="Ingresá tu correo electrónico" required >
+                <input type="number" value="Teléfono" required>
+                <input type="button" value="Resetear">
+                <input type="imput" value="Enviar">
+            </form>
         </section>
         <section>
             <p>Suscríbete para más novedades</p>
-            <input type="text">Ingresá tu correo electronico
-            <button>Suscribirme</button>
+            <form action="">
+                <input type="Ingresá tu correo electronico">Suscribete
+                <input type="imput" value="Enviar">
+            </form>
         </section>
         <section>
             <i></i>
@@ -78,7 +85,7 @@
             <h5>Número de teléfono</h5>
             <h4>Correo Electrónico</h4>
             <h5>Dirección de correo</h5>
-            <img src="" alt="">
+            <img src="./images/Logofot.png" alt="Logo">
         </section>
     </main>
     <footer>Todos los derechos reservados Front End</footer>

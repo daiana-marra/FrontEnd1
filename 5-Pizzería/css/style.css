@@ -174,4 +174,12 @@ h1 {
     color:white;
 }
 
+.ranking {
+    order:1;
+}
+
+.promo {
+    order:1;
+}
+
 
